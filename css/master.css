@@ -36,6 +36,7 @@ display:inline-block;
     margin-bottom: 2rem;
     float:left;
     clear:both;
+    display:block;
   }
 
   h1 {
