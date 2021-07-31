@@ -34,7 +34,6 @@ display:inline-block;
   footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    float:left;
     clear:both;
     display:block;
   }
