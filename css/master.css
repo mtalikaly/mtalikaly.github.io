@@ -15,7 +15,7 @@ display:inline-block;
   width:15%;
   padding:2%;
   background-color:#FFFFFF;
-  float:left;
+/*   float:left; */
 }
   a:hover {
     color: red;/* set the text color to red here */
