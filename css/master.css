@@ -34,7 +34,8 @@ display:inline-block;
   footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    clear:none;
+    float:left;
+    clear:both;
   }
 
   h1 {
