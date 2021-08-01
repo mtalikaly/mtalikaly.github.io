@@ -10,12 +10,24 @@ img{
  display:inline-block;
 clear:both;
 }
-section{
+.main{
 display:inline-block;
-  width:15%;
+clear: all;
+  width:100%;
   padding:2%;
-  background-color:#FFFFFF;
+  background-color:greenyellow;
 /*   float:left; */
+}
+.main1{
+  display: inline-block;
+  background-color: #b3b3b3;
+  float: left;
+  padding: 4%;
+  margin: 10%;
+}
+main.h2.p{
+
+  text-align: center;
 }
   a:hover {
     color: red;/* set the text color to red here */
@@ -23,7 +35,7 @@ display:inline-block;
   }
 
   body {
-    background-color: beige;
+    /*background-color: #FFFFFF;*/
     color: black;
     /* set the background color here */
     /* set the text color to black here */
@@ -31,16 +43,17 @@ display:inline-block;
     text-align: left;/* set the text alignment here */
    }
 
-/*   footer { 
+ footer { 
     margin-top: 2rem;
     margin-bottom: 2rem;
     clear:both;
-    display:block;*/
+    display:block;
   }
 
   h1 {
     margin-bottom: 0.5rem;
     margin-top: 3rem;
+    text-align: center;
    }
 
   h2 {
@@ -49,6 +62,7 @@ display:inline-block;
     /* set both the bottom margin and top margin to 2.5rem here */
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
+    text-align: center;
    }
 
   h3 {
@@ -76,3 +90,6 @@ display:inline-block;
     margin: 0 auto;
     text-align: left;
   }
+p{
+  text-align: center;
+}
