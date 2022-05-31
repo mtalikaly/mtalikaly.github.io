@@ -1,1 +1,148 @@
+<html>
 
+<head>
+<meta charset="utf-8">
+<title>Kenji University</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--link to bootstrap CSS i have used for responsiveness and layouts so as not to
+write media querries from scratch -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- link to my stylesheet -->
+<link rel="stylesheet" href="css/mycss.css">
+</head>
+<body>
+<header>
+<h1>KENJI UNIVERSITY<h1>	
+</header>
+<!-- navigation for the site -->
+<nav>
+
+	<a  href="home.html">Home</a>
+<!-- the portfolio link will have active class taking effect -->
+	<a  href="portfolio.html" class="active">Portfolio</a>
+	
+	<a href="contact.html">Contact us</a>
+	
+	<a  href="about.html">About us</a>
+	
+</nav><br>
+
+<div class="container">
+
+	<h2 class="fs-bolder">PORTFOLIO</h2>
+</div>
+<br><br>
+<!-- i decided to use bootstrap css for layout and this is the container for first row -->
+<div class="container">
+	<div class="row">
+		<!-- the first column will take up 3 or the available 12 columns on a big screen
+			and all 12 columns on a small and medium screen-->
+	<div class="col-lg-3 col-md-12 col-sm-12" >
+		<section class="nav2">
+		<!-- this is the vertical navigation -->
+	<a  href="home.html">Home</a><br><br>
+
+	<a  href="portfolio.html" class="active">Portfolio</a><br><br>
+	
+	<a href="contact.html">Contact us</a><br><br>
+	
+	<a  href="about.html">About us</a>
+		</section>
+	</div>
+<!-- the second column will also take 3 of the available 12 columns on a big screen
+			and all 12 columns on a small and medium screen -->
+  <div class="col-lg-3 col-md-12 col-sm-12">
+  	<!--i implemented a picture gallery and this is it -->
+<div class="gallery">
+	<!-- when image is clicked it will open in a new page on the browser -->
+  <a target="_blank" href="images/teacher.jpg">
+  	<!-- first image in the gallery -->
+    <img src="images/teacher.jpg" alt="image of teacher" >
+  </a>
+  <!-- description of the image -->
+  <div class="desc">Head of science department</div>
+</div>
+</div>
+<!-- third column will take also take 3 of the available 12 columns on a big screen
+			and all 12 columns on a small and medium screen -->
+<div class="col-lg-3 col-md-12 col-sm-12">
+<div class="gallery">
+  <a target="_blank" href="images/me.jpg">
+    <img src="images/me.jpg" alt="student" >
+  </a>
+  <div class="desc">Best English student</div>
+</div>
+</div>
+<!-- the fourth column will take 3 of the available 12 on a big screen
+			and all 12 columns on a small and medium screen -->
+<div class="col-lg-3 col-md-12 col-sm-12">
+<div class="gallery">
+	<!-- when image is clicked it will open in a new page as a large one -->
+  <a target="_blank" href="images/dining.jpg">
+    <img src="images/dining.jpg" alt="dining room" >
+  </a>
+  <div class="desc">Dining room</div>
+</div>
+</div>
+<!-- second row -->
+<div class="container">
+	<div class="row">
+		<!-- first column will take of 3 out of 12 columns on a big screen
+			and all 12 columns on a small and medium screen-->
+	<div class="col-lg-3 col-md-12 col-sm-12 " >
+		<!-- i decided to include this part to inform users that the images are clickable
+		and open as larger ones once clicked -->
+			<h2 class="large">Picture small? </h2>
+			<h2 class="large2">Click on picture to enlarge </h2>
+
+		
+	</div>
+<!-- the second column will take up 3 or the available 12 columns on a big screen
+			and all 12 columns on a small and medium screen-->
+  <div class="col-lg-3 col-md-12 col-sm-12">
+<div class="gallery">
+  <a target="_blank" href="images/room.jpg">
+    <img src="images/room.jpg" alt="image of hostel room" >
+  </a>
+  <div class="desc">Hostel room</div>
+</div>
+</div>
+<!-- the third column will take up 3 or the available 12 columns on a big screen
+			and all 12 columns on a small and medium screen-->
+<div class="col-lg-3 col-md-12 col-sm-12">
+<div class="gallery">
+  <a target="_blank" href="images/social.jpg">
+    <img src="images/social.jpg" alt="social weekend" >
+  </a>
+  <div class="desc">Social weekend </div>
+</div>
+</div>
+<!-- the fourth column will take up 3 or the available 12 columns on a big screen
+			and all 12 columns on a small and medium screen-->
+<div class="col-lg-3 col-md-12 col-sm-12">
+<div class="gallery">
+  <a target="_blank" href="images/meeting.jpg">
+    <img src="images/meeting.jpg" alt="meeting room" >
+  </a>
+  <div class="desc">Meeting room</div>
+</div>
+</div>
+
+</body>
+<!-- footer of the page -->
+<footer>
+	<!-- navigation in footer -->
+	<nav>
+	<a  href="home.html">Home</a>
+
+	<a  href="portfolio.html" class="active">Portfolio</a>
+	
+	<a href="contact.html">Contact us</a>
+	
+	<a  href="about.html">About us</a>
+	
+</nav>
+
+</footer>
+
+</html>
