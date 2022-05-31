@@ -7,7 +7,7 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 img{
- display:block;
+ display:inline-block;
   width: 50px;
 height: 50px;
 border: 2px solid #000000;
