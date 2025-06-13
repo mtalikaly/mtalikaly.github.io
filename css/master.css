@@ -2,7 +2,12 @@
 
 /* Text inside these asterisks and slashes are comments for human */
 
-  a {
+ .education{
+   background-color: #EAE2B7;
+font-family:Sans-serif;
+float:left; 
+ }
+a {
     color: blue;/* set the text color to blue here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
