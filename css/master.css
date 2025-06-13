@@ -21,15 +21,15 @@ height: 100px;
 border: 2px solid #000000;
 clear:both;
 }
-.main{
-display:inline-block;
-clear: all;
-  width:100%;
-  padding:2%;
- background-color: #EAE2B7;
-font-family:Sans-serif;
-float:left; 
-}
+#.main{
+#display:inline-block;
+#clear: all;
+ # width:100%;
+ # padding:2%;
+# background-color: #EAE2B7;
+#font-family:Sans-serif;
+#float:left; 
+#}
 .main1{
   display: inline-block;
   background-color: #b3b3b3;
